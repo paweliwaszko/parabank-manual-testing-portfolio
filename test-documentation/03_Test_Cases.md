@@ -1,40 +1,10 @@
-# 🧪 ParaBank — Test Cases
+# ParaBank - Test Cases
 
-## 📌 Overview
+This document contains an overview of the manual test cases prepared for the ParaBank Demo application.
 
-This document provides an overview of the manual test cases prepared for the **ParaBank Demo** application.
+A total of **45 test cases** were created and executed in TestRail. Detailed test cases, including preconditions, test steps and expected results, are available in the TestRail export included in this repository.
 
-Detailed test cases were created, managed, and executed in **TestRail**.
-
-Each test case includes:
-
-- TestRail Case ID
-- Test Case Title
-- Preconditions
-- Test Steps
-- Expected Result
-- Execution Result
-
-A total of **45 manual test cases** were prepared and executed.
-
----
-
-## 📊 Test Case Distribution
-
-| Section | Number of Test Cases |
-|---|---:|
-| 🔐 Login | 8 |
-| 👤 Registration | 6 |
-| 💳 Accounts | 6 |
-| 💸 Fund Transfer | 10 |
-| 🧾 Bill Payment | 6 |
-| 👤 Profile & Password | 5 |
-| 🚪 Logout & Session | 4 |
-| **Total** | **45** |
-
----
-
-## 🔐 01 — Login
+## 01 - Login
 
 | Case ID | Test Case |
 |---|---|
@@ -47,9 +17,7 @@ A total of **45 manual test cases** were prepared and executed.
 | C52 | Verify successful logout after login |
 | C90 | Login with empty username and password |
 
----
-
-## 👤 02 — Registration
+## 02 - Registration
 
 | Case ID | Test Case |
 |---|---|
@@ -60,9 +28,7 @@ A total of **45 manual test cases** were prepared and executed.
 | C57 | Registration with empty username |
 | C58 | Registration with empty password |
 
----
-
-## 💳 03 — Accounts
+## 03 - Accounts
 
 | Case ID | Test Case |
 |---|---|
@@ -73,9 +39,7 @@ A total of **45 manual test cases** were prepared and executed.
 | C63 | Filter transactions by activity period |
 | C64 | Filter transactions by transaction type |
 
----
-
-## 💸 04 — Fund Transfer
+## 04 - Fund Transfer
 
 | Case ID | Test Case |
 |---|---|
@@ -90,9 +54,7 @@ A total of **45 manual test cases** were prepared and executed.
 | C73 | Verify account balances after successful fund transfer |
 | C74 | Verify transaction history after successful fund transfer |
 
----
-
-## 🧾 05 — Bill Payment
+## 05 - Bill Payment
 
 | Case ID | Test Case |
 |---|---|
@@ -103,9 +65,7 @@ A total of **45 manual test cases** were prepared and executed.
 | C79 | Bill payment with negative amount |
 | C80 | Bill payment with invalid amount format |
 
----
-
-## 👤 06 — Profile & Password
+## 06 - Profile & Password
 
 | Case ID | Test Case |
 |---|---|
@@ -115,11 +75,9 @@ A total of **45 manual test cases** were prepared and executed.
 | C84 | Update profile with invalid ZIP code |
 | C85 | Verify updated profile data persists after re-login |
 
-> **Note:** The TestRail section retains the name **Profile & Password**, although the tested version of ParaBank does not provide password-change functionality.
+> Note: The TestRail section retains the name "Profile & Password", although the tested version of ParaBank does not provide password-change functionality.
 
----
-
-## 🚪 07 — Logout & Session
+## 07 - Logout & Session
 
 | Case ID | Test Case |
 |---|---|
@@ -128,43 +86,32 @@ A total of **45 manual test cases** were prepared and executed.
 | C88 | Access protected page using direct URL after logout |
 | C89 | Verify session remains active during authenticated navigation |
 
----
+## Test design
 
-## 🧩 Test Design Techniques
+The test cases include:
 
-The test cases were designed using several common software testing techniques, including:
-
-- Positive testing
-- Negative testing
+- positive and negative testing
 - Equivalence Partitioning
 - Boundary Value Analysis
-- Error Guessing
-- Input validation testing
-- Exploratory testing
+- input validation
+- error guessing
+- exploratory testing
 
----
+## Summary
 
-## 🛠 Test Management
+| Section | Test Cases |
+|---|---:|
+| Login | 8 |
+| Registration | 6 |
+| Accounts | 6 |
+| Fund Transfer | 10 |
+| Bill Payment | 6 |
+| Profile & Password | 5 |
+| Logout & Session | 4 |
+| **Total** | **45** |
 
-The detailed test cases were managed and executed using **TestRail**.
+Detailed test cases and execution evidence are available in the [TestRail folder](../testrail/).
 
-TestRail was used to:
+Test execution results are available in the [Test Summary Report](./04_Test_Summary_Report.md).
 
-- Organize test cases into functional sections
-- Define preconditions and test steps
-- Define expected results
-- Execute test runs
-- Record test results
-- Link failed tests with discovered defects
-
----
-
-## 📝 Notes
-
-Detailed execution results are available in the **Test Summary Report**.
-
-➡️ [View Test Summary Report](./04_Test_Summary_Report.md)
-
-Defects discovered during test execution are documented separately.
-
-➡️ [View Bug Reports](../bug-reports/)
+Defects found during testing are documented in [Bug Reports](../bug-reports/).
