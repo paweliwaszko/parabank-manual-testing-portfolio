@@ -1,4 +1,4 @@
-# Hi, I'm Paweł 👋
+# Manual Testing Portfolio
 
 I'm an **ISTQB CTFL certified Junior Manual QA Tester** currently looking for my first opportunity in software testing.
 
