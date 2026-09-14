@@ -122,7 +122,7 @@ It includes:
 - dynamic variables
 - Collection Runner execution
 
-➡️ **[View REST API Testing project](LINK-DO-TWOJEGO-REPO-POSTMAN)**
+➡️ **[View REST API Testing project](https://github.com/paweliwaszko/api-testing-postman-portfolio)**
 
 ---
 
