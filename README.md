@@ -1,189 +1,151 @@
-# 👋 Hi, I'm Paweł — Junior Manual QA Tester
+# Hi, I'm Paweł 👋
 
-I am a Junior Manual QA Tester focused on software quality, functional testing, and continuous development in the QA field.
+I'm an **ISTQB CTFL certified Junior Manual QA Tester** currently looking for my first opportunity in software testing.
 
-I hold the **ISTQB Certified Tester Foundation Level (CTFL)** certification and have completed practical software testing courses.
+Before moving into IT, I worked for around 10 years in a family business, where I was responsible for procurement, documentation, quality control and solving day-to-day operational problems.
 
-Before transitioning into IT, I gained around **10 years of professional experience in a family business**, where I was responsible for procurement, documentation, quality control, problem solving, and day-to-day operational processes.
+I'm now developing my QA skills through hands-on projects focused on manual testing, API testing and SQL.
 
-I am currently developing my QA skills through practical projects involving **manual web application testing, API testing, SQL, test management, and bug reporting**.
+## Skills
 
----
-
-## 🧪 QA Skills
-
-### Manual Testing
-- Functional Testing
-- Regression Testing
-- Smoke Testing
-- Exploratory Testing
-- Positive & Negative Testing
+**Testing**
+- Functional, regression and smoke testing
+- Exploratory testing
+- Positive and negative testing
 - Boundary Value Analysis
 - Equivalence Partitioning
 - Decision Tables
-- Test Scenario Design
-- Test Case Design
-- Bug Reporting
-- Test Execution
-- Test Documentation
+- Test case and test scenario design
+- Bug reporting
+- Test documentation
 
-### Tools & Technologies
-- **TestRail** — test case management and test execution
-- **Jira** — bug reporting and issue tracking
-- **Postman** — REST API testing
-- **SQL** — basic database queries and data verification
-- **Git & GitHub** — version control and QA portfolio management
-- **Chrome DevTools** — basic web application analysis
-- **HTML & CSS** — basic knowledge
-- **REST API**
-- **HTTP methods & status codes**
+**Tools**
+- TestRail
+- Jira
+- Postman
+- Git & GitHub
+- Chrome DevTools
 
-### Test Documentation
-- Test Plan
-- Test Scenarios
-- Test Cases
-- Checklists
-- Bug Reports
-- Test Summary Reports
+**Technical**
+- REST API
+- HTTP methods and status codes
+- SQL
+- JSON
+- Basic HTML & CSS
 
----
+## Certification
 
-## 🎓 Certifications & Training
+**ISTQB Certified Tester Foundation Level (CTFL)**
 
-- 🏆 **ISTQB Certified Tester Foundation Level (CTFL)**
-- 📚 Software Testing Courses
-- 📚 Postman / REST API
-- 📚 SQL Fundamentals
-- 📚 Jira
-- 📚 HTML & CSS Fundamentals
+I have also completed practical courses covering software testing, Postman, REST API, SQL, Jira and HTML/CSS.
 
 ---
 
-# 🏦 Featured QA Project — ParaBank Manual Testing
+# ParaBank Manual Testing Project
 
-This repository presents my practical manual testing project based on the **ParaBank Demo** web application.
+This is my main manual testing project based on the **ParaBank Demo** application.
 
-The goal of the project was to simulate a real manual QA workflow — from test planning and test design through test execution to defect reporting and final test documentation.
+I used the project to practice the complete manual testing process: preparing test documentation, designing test cases, executing them in TestRail, reporting defects and preparing a test summary.
 
-### 🔎 Project Scope
+## Scope
 
-The application was tested in the following functional areas:
+I tested the following areas:
 
 - Login
 - Registration
 - Accounts
 - Fund Transfer
 - Bill Payment
-- Profile & Password
-- Logout & Session
+- Profile
+- Logout and session handling
 
-A total of **45 test cases** were prepared and executed using **TestRail**.
+In total, I prepared and executed **45 manual test cases**.
 
----
+## Test documentation
 
-## 📋 Test Documentation
-
-The project includes structured test documentation covering the testing process.
-
-➡️ [View Test Documentation](./test-documentation/)
-
-Documentation includes:
+The project contains:
 
 - [Test Plan](./test-documentation/01_Test_Plan.md)
 - [Test Scenarios](./test-documentation/02_Test_Scenarios.md)
 - [Test Cases](./test-documentation/03_Test_Cases.md)
 - [Test Summary Report](./test-documentation/04_Test_Summary_Report.md)
 
----
+## TestRail
 
-## 🧪 Test Cases & TestRail
+I used TestRail to organize and execute all 45 test cases.
 
-A total of **45 manual test cases** were created, managed, and executed using **TestRail**.
+The repository includes an exported version of the test cases and screenshots from the test run.
 
-The TestRail project includes structured test cases with preconditions, test steps, expected results, and execution statuses.
+➡️ [TestRail evidence](./testrail/)
 
-➡️ [View TestRail Test Cases & Execution Evidence](./testrail/)
+## Bug reports
 
-The test cases cover both positive and negative scenarios across the main functional areas of the ParaBank application.
+During testing I documented **8 defects**.
 
----
+Each report contains reproduction steps, expected and actual results, priority, related TestRail IDs and screenshot evidence.
 
-## 🐞 Bug Reports
+➡️ [View all bug reports](./bug-reports/)
 
-Defects discovered during test execution were documented as structured bug reports.
+Examples:
 
-➡️ [View Bug Reports](./bug-reports/)
-
-Each bug report contains:
-
-- Bug ID
-- Priority
-- TestRail Case ID
-- TestRail Test ID
-- Description
-- Preconditions
-- Steps to Reproduce
-- Expected Result
-- Actual Result
-- Test Environment
-- Screenshot Evidence
-
-### Selected Defects
-
-- [BUG-001 — Transaction History Filtering](./bug-reports/BUG-001_Activity_Period_Filter.md)
-- [BUG-002 — Zero Amount Fund Transfer](./bug-reports/BUG-002_Zero_Amount_Transfer.md)
-- [BUG-003 — Negative Amount Fund Transfer](./bug-reports/BUG-003_Negative_Amount_Transfer.md)
-- [BUG-004 — Zero Amount Bill Payment](./bug-reports/BUG-004_Zero_Amount_Bill_Payment.md)
-- [BUG-005 — Negative Amount Bill Payment](./bug-reports/BUG-005_Negative_Amount_Bill_Payment.md)
+- [BUG-001 — Activity Period Filter](./bug-reports/BUG-001_Activity_Period_Filter.md)
+- [BUG-003 — Negative Amount Transfer](./bug-reports/BUG-003_Negative_Amount_Transfer.md)
 - [BUG-006 — Profile Update Error](./bug-reports/BUG-006_Profile_Update_Error.md)
-- [BUG-007 — Invalid ZIP Code Error](./bug-reports/BUG-007_Invalid_ZIP_Code_Error.md)
-- [BUG-008 — Protected URL After Logout](./bug-reports/BUG-008_Direct_URL_After_Logout.md)
+- [BUG-008 — Direct URL After Logout](./bug-reports/BUG-008_Direct_URL_After_Logout.md)
+
+## Test results
+
+| Result | Number |
+|---|---:|
+| Passed | 36 |
+| Failed | 8 |
+| Blocked | 1 |
+| **Total** | **45** |
+
+Screenshots from testing are available in the [screenshots folder](./screenshots/).
 
 ---
 
-## 📸 Test Evidence
+## Other projects
 
-Screenshots documenting defects and test execution are stored separately in the project.
+### REST API Testing with Postman
 
-➡️ [View Screenshots](./screenshots/)
+I created a separate API testing project using JSONPlaceholder and Postman.
+
+It includes:
+
+- GET, POST, PUT, PATCH and DELETE requests
+- positive and negative tests
+- status code and JSON response validation
+- Postman test scripts
+- environment variables
+- dynamic variables
+- Collection Runner execution
+
+➡️ **[View REST API Testing project](LINK-DO-TWOJEGO-REPO-POSTMAN)**
 
 ---
 
-# 🛠 Tech Stack
+## Currently learning
 
-`TestRail` `Jira` `Postman` `SQL` `REST API` `Git` `GitHub` `Chrome DevTools` `HTML` `CSS`
+I'm currently improving my skills in:
 
----
-
-# 🚀 Currently Learning
-
-I am continuously developing my QA skills, with a focus on:
-
-- Advanced API testing with Postman
 - SQL
-- Browser DevTools
+- API testing
+- Chrome DevTools
 - Git & GitHub
-- Test automation fundamentals
 - Python fundamentals
+- Test automation fundamentals
 
-My next goal is to expand my portfolio with **API testing, SQL exercises, and basic test automation**.
+## About my career change
 
----
+I'm looking for my first role as a **Junior Manual QA Tester / Junior Software Tester**.
 
-# 🎯 Career Goal
+My previous work taught me to pay attention to details, look for the cause of problems and take responsibility for the work I do. I'm now trying to transfer that experience into software testing and continue developing my technical skills.
 
-I am looking for my first professional opportunity as a **Junior Manual QA Tester / Junior Software Tester**.
+## Contact
 
-I want to use my previous professional experience, attention to detail, analytical thinking, and newly developed technical skills to contribute to software quality while continuing to grow toward **API testing and test automation**.
+**Paweł Iwaszko**
 
----
-
-## 📫 Contact
-
-- **LinkedIn:** 💼 [Paweł Iwaszko](https://www.linkedin.com/in/pawe%C5%82-iwaszko-a73793344/)
-- **Email:** pawel.iwaszko2@gmail.com
-
-
----
-
-⭐ Thank you for visiting my QA portfolio.
+[LinkedIn](https://www.linkedin.com/in/pawe%C5%82-iwaszko-a73793344/)  
+Email: pawel.iwaszko2@gmail.com
