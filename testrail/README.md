@@ -1,47 +1,39 @@
-# 🧪 TestRail — Test Management & Execution
+# TestRail - Test Management & Execution
 
-This folder contains evidence of test case management and test execution performed in **TestRail** for the ParaBank Manual Testing project.
+This folder contains TestRail evidence from the ParaBank Manual Testing project.
 
-A total of **45 manual test cases** were created, organized into functional sections, and executed in TestRail.
+I used TestRail to create, organize and execute **45 manual test cases** covering the main functional areas of the application.
 
-The TestRail project is private, therefore exported test cases and test execution evidence are included in this repository for portfolio purposes.
+Since the TestRail project is private, the test case export and screenshots are included here as portfolio evidence.
 
----
+## Test Cases
 
-## 📋 Test Cases
+The complete TestRail export containing all **45 test cases** is available below:
 
-The complete set of **45 manual test cases** exported from TestRail is available here:
+[Download Test Cases](./parabank_manual_testing.xlsx)
 
-➡️ [View / Download Test Cases](./parabank_manual_testing.xlsx)
+The export includes test case IDs, preconditions, test steps and expected results.
 
-The exported file contains the test cases created and managed in TestRail, including test case IDs, preconditions, test steps, and expected results.
+## Test Case Example
 
----
-
-## 🔎 Test Case Example
-
-Below is an example of a detailed test case created in TestRail.
+Example of a test case created in TestRail:
 
 ![TestRail Test Case Example](./ParaBank_Test_Case_Example.png)
 
----
+## Test Execution
 
-## 📊 Test Execution
+All 45 test cases were executed in a TestRail Test Run.
 
-The prepared test cases were executed as part of a dedicated Test Run in TestRail.
+The final results were:
 
-The execution included **Passed, Failed, and Blocked** test results.
+- 36 Passed
+- 8 Failed
+- 1 Blocked
 
 ![TestRail Test Run](./ParaBank_Test_Run.png)
 
----
+## Related Documentation
 
-## 🐞 Defects
+Failed tests were documented as separate [Bug Reports](../bug-reports/).
 
-Defects identified during test execution were documented separately as structured bug reports.
-
-➡️ [View Bug Reports](../bug-reports/)
-
-Detailed test execution results and conclusions are available in the Test Summary Report.
-
-➡️ [View Test Summary Report](../test-documentation/04_Test_Summary_Report.md)
+Full execution results are available in the [Test Summary Report](../test-documentation/04_Test_Summary_Report.md).
