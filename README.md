@@ -24,7 +24,7 @@ I'm now developing my QA skills through hands-on projects focused on manual test
 - Jira
 - Postman
 - Git & GitHub
-- Chrome DevTools
+
 
 **Technical**
 - REST API
